@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: 'Merriweather', serif;
   margin: 0;
+  padding: 0;
   text-align: center;
   line-height: 1.5;
 }
@@ -20,6 +21,7 @@ header li {
   color: #fff;
   display: inline;
   border: 1px solid #a63f38;
+  padding: .5em 0 0;
 }
 
 header ul {
@@ -30,7 +32,7 @@ header ul {
 
 div {
   background-color: #d05c2e;
-  margin: 0
+  margin: 0;
 }
 
 header {
@@ -40,4 +42,14 @@ header {
 
 header img {
   width: 40px;
+}
+
+nav li {
+  float: left;
+  display: inline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
