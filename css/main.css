@@ -18,6 +18,13 @@ header h1 {
 header li {
   font-size: 1.125rem;
   color: #fff;
+  display: inline;
+}
+
+header ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
 }
 
 div {
