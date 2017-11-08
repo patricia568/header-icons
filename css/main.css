@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Merriweather', serif;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -18,4 +19,9 @@ li {
 }
 div {
   background-color: #d05c2e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
