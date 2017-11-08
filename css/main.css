@@ -19,6 +19,7 @@ header li {
   font-size: 1.125rem;
   color: #fff;
   display: inline;
+  border: 1px solid #a63f38;
 }
 
 header ul {
