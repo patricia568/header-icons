@@ -6,3 +6,16 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+li {
+  font-size: 1.125rem;
+  color: #fff;
+}
+div {
+  background-color: #d05c2e;
+}
