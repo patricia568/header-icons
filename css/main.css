@@ -8,20 +8,26 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+header h1 {
   font-size: 2rem;
   color: #fff;
 }
 
-li {
+header li {
   font-size: 1.125rem;
   color: #fff;
 }
+
 div {
   background-color: #d05c2e;
+  margin: 0
 }
 
-body {
+header {
   margin: 0;
   padding: 0;
+}
+
+header img {
+  width: 40px;
 }
