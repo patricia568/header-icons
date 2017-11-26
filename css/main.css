@@ -13,7 +13,7 @@ html {
 h1 {
   font-size: 2rem;
   color: #fff;
-  margin-top: 0;
+  margin-top: -.5em;
   padding-top: .5em;
 }
 
@@ -54,11 +54,11 @@ img {
 }
 
 nav {
-  margin: 0;
+  margin-top: -.5em;
 }
 
 div {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   background-color: #d05c2e;
 }
 
@@ -67,6 +67,6 @@ html, body, header {
   padding: 0;
 }
 
-a:hover {
+ul li a:hover {
   background-color: #a63f38;
 }
