@@ -18,14 +18,16 @@ h1 {
 
 li {
   font-size: 1.125rem;
-  display: inline-block;
+  display: inline;
   border: 1px solid #a63f38;
   padding: .5em 0 0;
+  float: left;
+  width: 32%;
 }
 
 ul {
   list-style-type: none;
-  display: inline-block;
+  display: inline;
 }
 
 a {
@@ -51,4 +53,12 @@ img {
 body {
   margin: 0;
   padding: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
