@@ -30,7 +30,10 @@ li {
 ul {
   list-style-type: none;
   display: inline;
+  display: flex;
+  align-items: stretch; /* Default */
   width: 100%;
+  margin: 0;
 }
 
 a {
