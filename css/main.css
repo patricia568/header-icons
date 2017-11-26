@@ -62,3 +62,10 @@ body {
 .right {
   float: right;
 }
+nav {
+  clear: both;
+}
+
+div {
+  padding-bottom: 4em;
+}
