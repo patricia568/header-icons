@@ -1,9 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   text-align: center;
   line-height: 1.5;
   display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -62,7 +64,7 @@ div {
   background-color: #d05c2e;
 }
 
-html, body, header {
+body {
   margin: 0;
   padding: 0;
 }
