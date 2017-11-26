@@ -24,12 +24,13 @@ li {
   border-top: 1px solid #a63f38;
   border-bottom: 1px solid #a63f38;
   padding: .5em 0 0;
+  width: 30%;
 }
 
 ul {
   list-style-type: none;
   display: inline;
-
+  width: 100%;
 }
 
 a {
@@ -51,6 +52,7 @@ img {
 }
 
 nav {
+
 }
 
 div {
