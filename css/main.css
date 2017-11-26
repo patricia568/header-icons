@@ -13,6 +13,8 @@ html {
 h1 {
   font-size: 2rem;
   color: #fff;
+  margin-top: 0;
+  padding-top: .5em;
 }
 
 li {
@@ -35,19 +37,9 @@ a {
   color: #fff;
 }
 
-header {
-  margin: 0;
-  padding: 0;
-}
-
 img {
   width: 40px;
   margin-top: 1em;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 .left {
@@ -59,10 +51,14 @@ body {
 }
 
 nav {
-  clear: both;
 }
 
 div {
   padding-bottom: 4em;
   background-color: #d05c2e;
+}
+
+html, body, header {
+  margin: 0;
+  padding: 0;
 }
