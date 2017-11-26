@@ -29,9 +29,8 @@ li {
 
 ul {
   list-style-type: none;
-  display: inline;
   display: flex;
-  align-items: stretch; /* Default */
+  align-items: stretch;
   width: 100%;
   margin: 0;
 }
@@ -55,15 +54,19 @@ img {
 }
 
 nav {
-
+  margin: 0;
 }
 
 div {
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   background-color: #d05c2e;
 }
 
 html, body, header {
   margin: 0;
   padding: 0;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
