@@ -19,7 +19,7 @@ h1 {
 li {
   font-size: 1.125rem;
   display: inline;
-  border: 1px solid #a63f38;
+  border-left: 1px solid #a63f38;
   padding: .5em 0 0;
   float: left;
   width: 32%;
@@ -28,17 +28,13 @@ li {
 ul {
   list-style-type: none;
   display: inline;
+  border-top: 1px solid #a63f38;
 }
 
 a {
   text-decoration: none;
   color: #fff;
   width: 100%;
-}
-
-div {
-  background-color: #d05c2e;
-  margin: 0;
 }
 
 header {
@@ -62,10 +58,12 @@ body {
 .right {
   float: right;
 }
+
 nav {
   clear: both;
 }
 
 div {
   padding-bottom: 4em;
+  background-color: #d05c2e;
 }
